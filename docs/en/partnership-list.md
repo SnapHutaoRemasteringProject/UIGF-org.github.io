@@ -38,6 +38,27 @@
     </template>
   </Pcd>
   <Pcd
+    bg="/partnerships/Snap.Hutao.Remastered/AppPreview.png"
+    icon="/partnerships/Snap.Hutao.Remastered/logo.png"
+    repo="https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered"
+    site="https://snaphutaorp.org"
+    title="Snap.Hutao.
+    Remastered"
+    desc="Multifunctional Open-source 
+    Genshin Impact Toolkit 🧰"
+    import export>
+    <template #import>
+      <Pcb label="UIGF v4.0" :games="['ys']" bg="red"></Pcb>
+      <Pcb label="UIGF v4.1" :games="['ys']" bg="red"></Pcb>
+      <Pcb label="UIGF v4.2" :games="['ys']" bg="red"></Pcb>
+    </template>
+    <template #export>
+      <Pcb label="UIGF v4.0" :games="['ys']" bg="red"></Pcb>
+      <Pcb label="UIGF v4.1" :games="['ys']" bg="red"></Pcb>
+      <Pcb label="UIGF v4.2" :games="['ys']" bg="red"></Pcb>
+    </template>
+  </Pcd>
+  <Pcd
     bg="/partnerships/NekoGame/preview.png"
     icon="/partnerships/NekoGame/logo.png"
     repo="https://github.com/Summer-Neko/NekoGame"
